@@ -16,8 +16,3 @@ class StudentProfile:
 
     def get_current_score(self):
         return self.__total_score
-
-
-
-
-
