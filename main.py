@@ -48,7 +48,6 @@ class CoursePortal:
 
     def accept_submission(self, student_name):
         if self.__is_locked == True:
-            print(f"Error: Deadline has passed. Submission rejected.")
+            raise ValueError(f"Error: Deadline has passed. Submission rejected.")
         else:
             print(f"Submission accepted from {student_name}.")
-        pass
