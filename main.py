@@ -45,7 +45,6 @@ class CoursePortal:
     def lock_portal(self):
         self.__is_locked = True
         print(f"Deadline passed. Portal locked.")
-        pass
 
     def accept_submission(self, student_name):
         if self.__is_locked == True:
